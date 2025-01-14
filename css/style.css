@@ -3,21 +3,18 @@
 }
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: unset;
+  background-position: unset;
+  background-size: unset;
+  background-repeat: unset;
+  background-attachment: unset;
+  background-origin: unset;
+  color: #475569;
+  background-color: rgba(25, 25, 25, 1);
 }
-
 .showcase {
   padding: 5%;
-}
-
-#portfolioIntro {
-  font-size: 350%;
-  font-family: Georgia, serif;
-  text-align: center;
-  vertical-align: middle;
-  direction: ltr;
-  color: rgba(255, 255, 255, 1);
-  flex: 1 1 0%;
-  font-weight: 600;
 }
 .cards {
   padding: 20px 0;
@@ -26,7 +23,7 @@ body {
   flex-flow: wrap;
 }
 .card {
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
   height: 450px;
   width: 450px;
   margin-bottom: 5px;
@@ -40,18 +37,6 @@ body {
   margin-top: -5px;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
 }
-
-#main {
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: unset;
-  background-position: unset;
-  background-size: unset;
-  background-repeat: unset;
-  background-attachment: unset;
-  background-origin: unset;
-  color: #475569;
-  background-color: rgba(25, 25, 25, 1);
-}
 .gjs-heading {
   margin: 0;
   color: rgba(29, 40, 55, 1);
@@ -64,7 +49,6 @@ body {
   color: inherit;
   transition: color 0.3s ease 0s;
 }
-
 .text-main-content {
   line-height: 30px;
   font-size: 1.2rem;
@@ -73,18 +57,18 @@ body {
   margin-bottom: 5px;
   text-align: left;
   margin-top: 5px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
   align-self: auto;
   color: rgba(255, 255, 255, 1);
   font-family: Trebuchet MS, Helvetica, sans-serif;
   font-weight: 300;
 }
 .gjs-text-hover {
-  color: rgb(114, 114, 114);
+  color: #727272;
 }
 .gjs-link:hover {
-  color: rgb(36, 99, 235);
+  color: #2463eb;
   text-decoration: underline;
 }
 .accordion {
@@ -95,7 +79,6 @@ body {
   overflow: hidden;
   transition: max-height 0.3s ease-out;
 }
-
 .accordion-header {
   display: flex;
   justify-content: space-between;
@@ -107,16 +90,14 @@ body {
   font-size: 16px;
   border: none;
   text-align: left;
-  outline: none;
+  outline: 0;
   transition: background-color 0.3s ease;
 }
-
 .accordion-header:hover {
   background-color: #333;
 }
-
 .accordion-content {
-  padding: 0px 25px;
+  padding: 0 25px;
   display: block;
   overflow: hidden;
   max-height: 0;
@@ -125,25 +106,15 @@ body {
   border-top: 1px solid #ddd;
   background-color: #191919;
 }
-
 .accordion-content p {
   margin-bottom: 10px;
 }
-
-.accordion.active .accordion-content {
-  max-height: 700px;
-  display: block;
-  opacity: 1;
-}
-
 .accordion-header span {
   flex-grow: 1;
 }
-
 .accordion-header .right-text {
   text-align: right;
 }
-
 .gjs-grid-column {
   flex: 1 1 0%;
   padding: 5px 0;
@@ -170,16 +141,16 @@ body {
   position: relative;
   display: inline-block;
   text-align: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  padding: 5%;
 }
+
+#imgFade{
+  mask-image: radial-gradient(ellipse, black 45%, transparent 70%);
+
+}
+
 #injuum-2-3 {
   padding: 25%;
 }
-
 #i984rl-2-3 {
   color: rgba(255, 255, 255, 1);
   font-family: Georgia, serif;
@@ -194,10 +165,9 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-right: 0px;
+  padding-right: 0;
   padding-left: 5px;
 }
-
 #button {
   color: rgba(255, 255, 255, 1);
   padding: 2%;
@@ -207,30 +177,11 @@ body {
   border-radius: 10px;
   transition: 0.3s;
   text-decoration: none;
-  font-weight:bold;
+  font-weight: 700;
 }
-
 #button:hover {
-  background-color: #ffffff;
-  color: black;
-}
-
-#iyo7lf-2-3 {
-  color: rgba(255, 255, 255, 1);
-  padding-top: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  background-color: rgba(66, 66, 66, 1);
-  cursor: pointer;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  background-color: #fff;
+  color: #000;
 }
 #iibrty-2-3 {
   padding-top: 1em;
@@ -245,7 +196,7 @@ body {
   padding-bottom: 10px;
   padding-left: 10px;
 }
-#experience{
+#experience {
   padding: 5%;
 }
 #ik5qsq-3 {
@@ -283,11 +234,9 @@ body {
   text-align: center;
   vertical-align: middle;
 }
-
-#intro{
+#intro {
   padding: 5%;
 }
-
 #introText {
   font-size: 350%;
   font-family: Georgia, serif;
@@ -349,22 +298,6 @@ body {
   }
   #i3vvs-2-3 {
     width: 100%;
-  }
-  #i2vta1-2-3 {
-    text-align: center;
-    vertical-align: middle;
-  }
-  #inc1xx-2-3 {
-    vertical-align: middle;
-    text-align: center;
-  }
-  #iyo7lf-2-3 {
-    text-align: center;
-    vertical-align: middle;
-  }
-  #i3ejze-2-3 {
-    text-align: center;
-    vertical-align: middle;
   }
   #iqcs-2-3 {
     direction: ltr;
