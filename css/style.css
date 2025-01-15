@@ -106,10 +106,12 @@ body {
   border-top: 1px solid #ddd;
   background-color: #191919;
 }
+
 .accordion.active .accordion-content {
   max-height: 500px; /* Adjust based on content size */
   opacity: 1; /* Ensure the content becomes visible */
 }
+
 .accordion-content p {
   margin-bottom: 10px;
 }
@@ -145,11 +147,7 @@ body {
   position: relative;
   display: inline-block;
   text-align: center;
-}
-
-#imgFade{
   mask-image: radial-gradient(ellipse, black 45%, transparent 70%);
-
 }
 
 #injuum-2-3 {
