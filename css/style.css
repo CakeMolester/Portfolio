@@ -106,6 +106,10 @@ body {
   border-top: 1px solid #ddd;
   background-color: #191919;
 }
+.accordion.active .accordion-content {
+  max-height: 500px; /* Adjust based on content size */
+  opacity: 1; /* Ensure the content becomes visible */
+}
 .accordion-content p {
   margin-bottom: 10px;
 }
