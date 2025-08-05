@@ -31,7 +31,8 @@ body {
   border-radius: 2px;
   transition: all 0.5s ease;
   font-weight: 100;
-  overflow: hidden;
+  overflow-y:hidden; 
+  overflow-x:hidden;
 }
 .card:hover {
   margin-top: -5px;
@@ -314,3 +315,4 @@ body {
     align-items: stretch;
   }
 }
+
